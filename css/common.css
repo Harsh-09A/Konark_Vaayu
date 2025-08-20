@@ -9,7 +9,8 @@
 }
 .sub-heading {
   color: var(--colorSecondary);
-  font-family: "Trajan_Pro_Bold";
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
 }
 @media screen and (max-width: 600px) {
   .section-heading {
@@ -122,4 +123,42 @@
 .read_more2 {
   cursor: pointer;
   color: var(--colorPrimary);
+}
+.read_more2 {
+  cursor: pointer;
+  color: var(--colorPrimary);
+  padding: 5px 10px;
+}
+
+/* Scrollbar  */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--colorPrimary);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--colorSecondary);
+}
+
+.policy_links a {
+  color: var(--colorPrimary);
+}
+.action-footer li a {
+  color: #fff;
 }
