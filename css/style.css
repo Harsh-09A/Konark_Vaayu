@@ -19,8 +19,7 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-}
-body {
+
   overflow-x: hidden;
 }
 
@@ -484,13 +483,16 @@ main {
   margin-bottom: 1.5rem;
   color: var(--colorPrimary);
   font-feature-settings: "lnum";
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
 }
 
 .pricing-card .price {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--colorTertiary);
+  color: var(--colorSecondary);
   margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
 }
 
 .pricing-card .features {
